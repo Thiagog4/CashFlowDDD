@@ -1,0 +1,11 @@
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.deps.json
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.dll
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.pdb
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.AssemblyInfoInputs.cache
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.AssemblyInfo.cs
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.csproj.CoreCompileInputs.cache
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.dll
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/refint/CashFlow.Communication.dll
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.pdb
+/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/ref/CashFlow.Communication.dll
