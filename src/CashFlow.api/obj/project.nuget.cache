@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HwIiaayMNbRTTmI/MN7BrZzsKqGiIA0DD2FYxi/RqUggwKkUPCVr4w7Ii0tdjQ8TC8PvVTns6x1O15a/1N0Q6w==",
+  "dgSpecHash": "lst2s7agIel1elSkidg9FypOD9RsR6Q3J4flnuZcR7jpbCCg2GGFiKqJRiYaB1vHokeuTB4tD2aIzGwBt/W7tQ==",
   "success": true,
   "projectFilePath": "/Users/thiagoguedes/Projects/CashFlow/src/CashFlow.api/CashFlow.api.csproj",
   "expectedPackageFiles": [
+    "/Users/thiagoguedes/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
     "/Users/thiagoguedes/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/thiagoguedes/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/thiagoguedes/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",
