@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="ResourceErrorMessages.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>ResourceErrorMessages.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Remove="teste.resx" />
+      <EmbeddedResource Update="ResourceErrorMessages.pt-BR.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ResourceErrorMessages.pt-BR.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Remove="ResourceErrorMessages.fr.resx" />
+      <EmbeddedResource Remove="ResourceErrorMessages.pt-PT.resx" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="ResourceErrorMessages.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ResourceErrorMessages.resx</DependentUpon>
+      </Compile>
+      <Compile Remove="teste.Designer.cs" />
+      <Compile Update="ResourceErrorMessages.pt-BR.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ResourceErrorMessages.pt-BR.resx</DependentUpon>
+      </Compile>
+      <Compile Remove="ResourceErrorMessages.fr.resx.cs" />
+      <Compile Remove="ResourceErrorMessages.fr.Designer.cs" />
+      <Compile Remove="ResourceErrorMessages.pt-PT.Designer.cs" />
+    </ItemGroup>
+
+</Project>
