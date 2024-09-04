@@ -9,8 +9,9 @@ namespace CashFlow.Infrastructure.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionString = "Server=root@127.0.0.1:3306;Database=cashflowdb;Uid=root;Pwd=adminadmin;";
-            var serverVersion = new MySqlServerVersion(new Version(8, 4, 2));
+            var connectionString = "Server=localhost;Database=cashflowdb;user=root;Password=adminadmin;";
+            var version = new Version(9, 0, 1);
+            var serverVersion = new MySqlServerVersion(version);
             optionsBuilder.UseMySql(connectionString, serverVersion);
         }
     }
