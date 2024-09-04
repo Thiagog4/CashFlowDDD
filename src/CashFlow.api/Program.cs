@@ -9,6 +9,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+builder.Configuration.GetConnectionString("Connection");
+
 builder.Services.AddMvc(options=> options.Filters.Add(typeof(ExceptionFilter)));
 
 builder.Services.AddInfrastructure();
