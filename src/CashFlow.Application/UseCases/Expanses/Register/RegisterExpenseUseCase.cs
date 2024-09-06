@@ -7,7 +7,7 @@ using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Exception.ExceptionBase;
 
-namespace CashFlow.Application.UseCases.Expanses.Register;
+namespace CashFlow.Application.UseCases.Expanses.Register; 
 
 public class RegisterExpenseUseCase : IRegisterExpenseUseCase
 {
