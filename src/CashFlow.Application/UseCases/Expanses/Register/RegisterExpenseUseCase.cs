@@ -40,8 +40,6 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
             var errorMessages =result.Errors.Select( f => f.ErrorMessage).ToList();
 
             throw new ErrorOnValidationException(errorMessages);
-        }
-        
-        
+        }   
     }
 }
