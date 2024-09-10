@@ -28,7 +28,6 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
         await _unitOfWork.Commit();
         return _mapper.Map<ResponseRegisteredExpenseJson>(entity);
     }
-
     private void Validate(RequestRegisterExpenseJson request)
     {
         var validator = new RegisterExpenseValidator();
